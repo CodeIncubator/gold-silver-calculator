@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/gold-silver-calculator/static/css/main.43aef5c2.chunk.css",
+    "main.js": "/gold-silver-calculator/static/js/main.1cc29ff7.chunk.js",
+    "main.js.map": "/gold-silver-calculator/static/js/main.1cc29ff7.chunk.js.map",
+    "runtime-main.js": "/gold-silver-calculator/static/js/runtime-main.55108c3b.js",
+    "runtime-main.js.map": "/gold-silver-calculator/static/js/runtime-main.55108c3b.js.map",
+    "static/js/2.70a9e3bf.chunk.js": "/gold-silver-calculator/static/js/2.70a9e3bf.chunk.js",
+    "static/js/2.70a9e3bf.chunk.js.map": "/gold-silver-calculator/static/js/2.70a9e3bf.chunk.js.map",
+    "static/js/3.22ef09dc.chunk.js": "/gold-silver-calculator/static/js/3.22ef09dc.chunk.js",
+    "static/js/3.22ef09dc.chunk.js.map": "/gold-silver-calculator/static/js/3.22ef09dc.chunk.js.map",
+    "index.html": "/gold-silver-calculator/index.html",
+    "static/css/main.43aef5c2.chunk.css.map": "/gold-silver-calculator/static/css/main.43aef5c2.chunk.css.map",
+    "static/js/2.70a9e3bf.chunk.js.LICENSE.txt": "/gold-silver-calculator/static/js/2.70a9e3bf.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.55108c3b.js",
+    "static/js/2.70a9e3bf.chunk.js",
+    "static/css/main.43aef5c2.chunk.css",
+    "static/js/main.1cc29ff7.chunk.js"
+  ]
+}

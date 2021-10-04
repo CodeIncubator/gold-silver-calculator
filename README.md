@@ -13,3 +13,4 @@ Note : the main branch held the source code, and the gh-pages branch held the bu
 
 Developed by @jayasurya
 
+Note: Hacktoberfest Contributes are welcome to contribute 

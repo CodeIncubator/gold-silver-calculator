@@ -8,9 +8,9 @@ Website Link: https://codeincubator.github.io/gold-silver-calculator/
 
 Note : the main branch held the source code, and the gh-pages branch held the built app code.
 
-![Screen Shot 2021-08-19 at 7 45 30 PM](https://user-images.githubusercontent.com/12830078/130084534-6cb95f56-9f12-48d1-9549-3befe562f38e.png)
+<img width="1342" alt="Screenshot 2021-10-27 at 12 48 18 PM" src="https://user-images.githubusercontent.com/12830078/139018366-d493f59c-1546-4f98-82c0-584a2fef2117.png">
 
 
-Developed by @jayasurya
+Developed by @jayasurya @yokesharun
 
 Note: Hacktoberfest Contributes are welcome to contribute 

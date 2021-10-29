@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import GoldCalc from './components/GoldCalculator'
+import GoldSilverCalculator from './components/GoldSilverCalculator'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <GoldCalc />
+    <GoldSilverCalculator />
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -84,3 +84,27 @@ form{
   .footerNote a{
     text-decoration: none;
   }
+
+  .App{
+    width: 100%;
+  }
+
+  .goldCalculator, .silverCalculator{
+    width: 50%;
+    float: left;
+  }
+
+  .vl {
+    border-left: 4px solid #900C3F;
+    height: 600px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 10%;
+  }
+
+  .footerBlock{
+    width: 100%;
+    float: left;
+  }
+  

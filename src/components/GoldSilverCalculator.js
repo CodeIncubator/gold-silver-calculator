@@ -59,20 +59,20 @@ export default function GoldSilverCalculator() {
                             <button className="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Silver Calculator</button>
                         </div>
                         <div className="col-lg-6 col-sm-12 col-xs-12">
-                        <div className="collapse multi-collapse" id="multiCollapseExample1">
+                        <div className="collapse multi-collapse show" id="multiCollapseExample1">
                             <h1 className="headerName">Gold Calculator</h1>
                             <form>
                                 <div>
                                     <label>Gold rate in &#x20b9;</label>
-                                    <input type="number" className="form-control" value={goldrate} onChange={e => setGoldrate(+e.target.value)}/>
+                                    <input type="number" min={1} className="form-control" value={goldrate} onChange={e => setGoldrate(+e.target.value)}/>
                                 </div>
                                 <div>
                                     <label>Gold Weight in grams</label>
-                                    <input type="number" className="form-control" value={goldweight} onChange={e => setGoldweight(+e.target.value)}/>
+                                    <input type="number" min={1} className="form-control" value={goldweight} onChange={e => setGoldweight(+e.target.value)}/>
                                 </div>
                                 <div>
                                     <label>Wastage in %</label>
-                                    <input type="number" className="form-control" value={wastage} onChange={e => setWastage(+e.target.value)}/>
+                                    <input type="number" min={0} className="form-control" value={wastage} onChange={e => setWastage(+e.target.value)}/>
                                 </div>
                                 {invalidGoldMessage && <p className="invalidMessage"> ** Invalid input values **</p>}
                             </form>
@@ -112,11 +112,11 @@ export default function GoldSilverCalculator() {
                             <form>
                                 <div>
                                     <label>Silver rate in &#x20b9;</label>
-                                    <input type="number" className="form-control" value={silverRate} onChange={e => setSilverRate(+e.target.value)}/>
+                                    <input type="number" min={1} className="form-control" value={silverRate} onChange={e => setSilverRate(+e.target.value)}/>
                                 </div>
                                 <div>
                                     <label>Silver Weight in grams</label>
-                                    <input type="number" className="form-control" value={silverWeight} onChange={e => setSilverWeight(+e.target.value)}/>
+                                    <input type="number" min={1} className="form-control" value={silverWeight} onChange={e => setSilverWeight(+e.target.value)}/>
                                 </div>
                                 {invalidSilverMessage && <p className="invalidMessage"> ** Invalid input values **</p>}
                             </form>
